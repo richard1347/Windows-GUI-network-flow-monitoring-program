@@ -7,9 +7,9 @@ In order to get the network information from your machine, we use psutil, a cros
 1. obtain the total network throughput
 
    psutil.net_io_counters()
-3. obtain a specific network adapter's throughput, please add pernic=True parameter
+3. obtain a specific network adapter's throughput, add pernic=True parameter
 
-   psutil.net_io_counters(pernic=True)['YOUR NETWORK CONNECTION'S NAME']
+   psutil.net_io_counters(pernic=True)['ETHERNET']
 ## How to install psutil
 Open your command line prompt on Windows, input
 ### >pip install psutil
