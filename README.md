@@ -13,5 +13,6 @@ In order to get the network information from your machine, we use psutil, a cros
 ## How to install psutil
 Open your command line prompt on Windows, input
 ### >pip install psutil
-Some screenshots of this program
-![image broken!](images/screenshot1.png)
+A screenshot of this program
+
+![screenshot](images/screenshot1.png#pic_center)
